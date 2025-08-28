@@ -2,3 +2,38 @@ html {
   height: 100%;
   width: 100%;
 }
+
+/* Give the header a blue background color and white text */
+header {
+  background-color: #0074d9;
+  color: white;
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+/* Navbar styles */
+.navbar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.navbar a:hover {
+  background: #005fa3;
+}
